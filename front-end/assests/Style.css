@@ -17,11 +17,11 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1;
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #00aeff;
 }
 
 header .sectionName{
-    color: #000000;
+    color: #00aeff;
     font-size: 1.5rem;
     font-weight: 500;
     letter-spacing: 1px;
@@ -43,14 +43,20 @@ header ul li{
 }
 
 header ul li a{
-    color: #000000;
+    color: #00aeff;
     letter-spacing: 0.7px;
     transition: 0.3s;
 }
 
 header ul li a:hover{
-    color: #ff5858;
-    border-bottom: 1px solid #ff5858;
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000;
+}
+
+.carousel{
+    background: linear-gradient(to top, #00c3ff, #ffffff);
+
+    
 }
 
 section > div{
@@ -58,6 +64,7 @@ section > div{
     grid-template-columns: 40% 60%;
     font-size: 18px;
     padding: 1vw;
+    
 }
 
 section > :first-child > div{
@@ -67,7 +74,7 @@ section > :first-child > div{
 .title{
     font-size: 2rem;
     font-weight: 500;
-    color: #24A746;
+    color: #00ffff;
 }
 
 form div{
@@ -75,13 +82,9 @@ form div{
     flex-direction: column;
     gap: 5px;
     margin-top: 34px;
+    
+    
 }
-/* 
-#CustomerManage form div input , #CustomerManage select , #ItemManage form div input , #ItemManage select{
-    padding: 10px;
-    border: 1px solid #c4c4c4;
-    border-radius: 5px;
-} */
 
 form div input ,select{
     padding: 10px 20px;
@@ -267,7 +270,7 @@ section{
     padding: 20px 30px;
     border: 1px solid #c4c4c4;
     cursor: pointer;
-    background-color: #24A746;
+    background-color: #00ffff;
     color: white;
     margin-top: 50px;
 }
@@ -407,10 +410,11 @@ table{
     justify-content: center;
     align-items: center;
     gap: 50px;
+    
 }
 
 .counts > div > div{
-    border: 1px solid #000000;
+    border: 1px solid #00e1ff;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -420,18 +424,21 @@ table{
     text-align: center;
     padding: 10px 0px;
     backdrop-filter: blur(20px);
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #424242;
+    
 }
 
 .counts h1{
     font-size: 2rem;
     font-weight: 500;
-    color: #24A746;
+    color: #00aeff;
 }
 
 .counts h2{
     font-size: 1.5rem;
     font-weight: 500;
-    color: #D43A40;
+    color: #035c00;
     margin-top: 20px;
 }
 
