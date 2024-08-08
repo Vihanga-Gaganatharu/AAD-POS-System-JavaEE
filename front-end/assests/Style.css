@@ -156,15 +156,15 @@ form div input ,select{
 }
 
 #CustomerManage th , #CustomerManage td , #ItemManage th , #ItemManage td{
-    border: 2px solid #24A746;
+    border: 2px solid #1691e4;
     width: 20vw;
     height: 4vw;
     text-align: center;
 }
 
 #CustomerManage th , #ItemManage th{
-    background-color: #000000;
-    color: white;
+    background-color: #94e6ff;
+    color: rgb(0, 0, 0);
 }
 
 section{
@@ -188,7 +188,7 @@ section{
 #OrderManage h1{
     font-size: 1.5rem;
     font-weight: 500;
-    background-color: #000000;
+    background-color: #33c7c0;
     padding: 10px 20px;
     color: white;
 }
@@ -327,7 +327,7 @@ section{
 }
 
 .table > div > div{
-    background-color: #ff3037;
+    background: linear-gradient(to top, #24A746, #bdffb4);
     color: white;
 }
 
