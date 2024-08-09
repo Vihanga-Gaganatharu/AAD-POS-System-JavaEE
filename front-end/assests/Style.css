@@ -48,9 +48,14 @@ header ul li a{
     transition: 0.3s;
 }
 
-header ul li a:hover{
+header ul li a:hover {
     color: #ff0000;
     border-bottom: 1px solid #ff0000;
+}
+
+header ul li a:active{
+    color: #ff0000;
+    
 }
 
 .carousel{
@@ -85,8 +90,16 @@ form div{
     
     
 }
+form div input{
+    padding: 10px 20px;
+    border: 1px solid #00c1f1;
+    border-radius: 30px;
+    color: #00ff62;
+    
+}
 
-form div input ,select{
+
+form div select{
     padding: 10px 20px;
     border: 1px solid #c4c4c4;
     border-radius: 30px;
@@ -462,3 +475,19 @@ table{
     right: 0;
     bottom: 0;
 }
+
+footer {
+    background-color: #333; /* Light black background */
+    color: #fff; /* White text color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content p {
+    margin: 0;
+    font-size: 14px;
+}
+
