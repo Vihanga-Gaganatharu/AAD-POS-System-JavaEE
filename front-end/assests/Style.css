@@ -426,7 +426,13 @@ table{
     backdrop-filter: blur(20px);
     border-radius: 30px;
     box-shadow: 0 0 10px 0 #424242;
+    transition: transform 0.5s ease;
     
+}
+
+.counts > div > div:hover{
+    transform: scale(1.1);
+
 }
 
 .counts h1{
